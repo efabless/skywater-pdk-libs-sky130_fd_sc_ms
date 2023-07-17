@@ -36,7 +36,7 @@
 `ifdef FUNCTIONAL
 `include "sky130_fd_sc_ms__tapvgnd.functional.pp.v"
 `else  // FUNCTIONAL
-`include "sky130_fd_sc_ms__tapvgnd.behavioral.pp.v"
+`include "sky130_fd_sc_ms__tapvgnd.timing.pp.v"
 `endif // FUNCTIONAL
 
 `else  // USE_POWER_PINS
@@ -44,7 +44,7 @@
 `ifdef FUNCTIONAL
 `include "sky130_fd_sc_ms__tapvgnd.functional.v"
 `else  // FUNCTIONAL
-`include "sky130_fd_sc_ms__tapvgnd.behavioral.v"
+`include "sky130_fd_sc_ms__tapvgnd.timing.v"
 `endif // FUNCTIONAL
 
 `endif // USE_POWER_PINS
